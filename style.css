@@ -1,0 +1,20 @@
+.darkmode{
+    background-color: black;
+    color: white;
+}
+#dark{
+    display: none;
+}
+li{
+    list-style: none;
+    position: relative;
+    width: 105%;
+    margin-left: -30px; 
+}
+#render {
+    border:none;
+}
+ul li:nth-child(odd) {
+    background: grey;
+    color:#fff;
+}
